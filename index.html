@@ -5,6 +5,37 @@
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
+	
+	<!-- <link href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.4/css/lightbox.min.css" rel="stylesheet"> -->
+  <style>
+    body {
+      font-family: sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #fafafa;
+    }
+
+    .galeria {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 10px;
+      max-width: 1000px;
+      margin: 40px auto;
+      padding: 10px;
+    }
+
+    .galeria a img {
+      width: 100%;
+      border-radius: 8px;
+      transition: transform 0.3s;
+    }
+
+    .galeria a img:hover {
+      transform: scale(1.5);
+    }
+  </style>
+	
+	
 	</head>
 	<body class="is-preload">
 
@@ -13,24 +44,31 @@
 				<header>
 					<span class="image avatar"><img src="images/avatar.png" alt="" /></span>
 					<h1 id="logo"><a href="#">Lucas Emilio B. Hoeltgebaum</a></h1>
-					<p>I'm hydrologist,<br />
-					and this website is under construction!</p>
+					<hr style="width: 50%; margin: 20px auto; border: 1px solid;">
+					<p>Hydrologist<br />
+						PhD on Environmental Engineering<br />
+					Postdoctoral Research at University of Idaho</p>
+					<hr style="width: 50%; margin: 20px auto; border: 1px solid;">
 				</header>
 				<nav id="nav">
 					<ul>
-						<li><a href="#one" class="active">About</a></li>
-						<li><a href="#two">Things I Can Do</a></li>
-						<li><a href="#three">A Few Accomplishments</a></li>
-						<li><a href="#four">Contact</a></li>
+						<li><a href="#about" class="active">About Me</a></li>
+						<li><a href="#recent">Recent Research</a></li>
+						<li><a href="#previous">Previous Work</a></li>
+						<!-- <li><a href="#skills">Skills</a></li> -->
+						<li><a href="#contact">Contact Me</a></li>
 					</ul>
 				</nav>
 				<footer>
 					<ul class="icons">
-						<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
-						<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
-						<li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
-						<li><a href="#" class="icon brands fa-github"><span class="label">Github</span></a></li>
-						<li><a href="#" class="icon solid fa-envelope"><span class="label">Email</span></a></li>
+						<!-- <li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li> -->
+						<!-- <li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li> -->
+						<!-- <li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li> -->
+						<li><a href="https://scholar.google.com/citations?hl=pt-BR&user=qhi0tlsAAAAJ" target="_blank" rel="noopener noreferrer" class="icon brands fa-google"><span class="label">Github</span></a></li>
+						<li><a href="https://www.researchgate.net/profile/Lucas-Hoeltgebaum" target="_blank" rel="noopener noreferrer" class="icon brands fa-researchgate"><span class="label">Github</span></a></li>
+						<li><a href="https://www.linkedin.com/in/lucas-hoeltgebaum/" target="_blank" rel="noopener noreferrer" class="icon brands fa-linkedin"><span class="label">Github</span></a></li>
+						<li><a href="https://github.com/lucashoeltgebaum" target="_blank" rel="noopener noreferrer" class="icon brands fa-github"><span class="label">Github</span></a></li>
+						<li><a href="mailto:lucas.emilioh@gmail.com" target="_blank" rel="noopener noreferrer" class="icon solid fa-envelope"><span class="label">Email</span></a></li>
 					</ul>
 				</footer>
 			</section>
@@ -42,61 +80,77 @@
 					<div id="main">
 
 						<!-- One -->
-							<section id="one">
+							<section id="about">
 								<div class="image main" data-position="center">
 									<img src="images/banner.png" alt="" />
 								</div>
 								<div class="container">
 									<header class="major">
-										<h2>Read Only</h2>
-										<p>Just an incredibly simple responsive site<br />
-										template freebie by <a href="http://html5up.net">HTML5 UP</a>.</p>
+										<h2>Who Am I?</h2>
+										<p>An Environmental Engineer with passion for Geophysics, driven by venturing into nature and analyzing the data it provides.</p>
 									</header>
-									<p>Faucibus sed lobortis aliquam lorem blandit. Lorem eu nunc metus col. Commodo id in arcu ante lorem ipsum sed accumsan erat praesent faucibus commodo ac mi lacus. Adipiscing mi ac commodo. Vis aliquet tortor ultricies non ante erat nunc integer eu ante ornare amet commetus vestibulum blandit integer in curae ac faucibus integer non. Adipiscing cubilia elementum.</p>
-								</div>
-							</section>
+									<hr style="width: 100%; margin: 20px auto; border: 1px solid;">
+									<p><b>Current Research and Academic Background</b></p>
+									<p>I am a researcher primarily focused on Hydrology and Environmental Sciences. My experience includes field instrumentation, data collection, numerical modeling, and data analysis. Additionally, I taught several engineering courses over six years and offered Python programming courses.</p>
+									<p></p>
+									<p>Currently, I am running my Hydrological Modelling research at the University of Idaho at the <a href="https://www.webpages.uidaho.edu/mengz/" target="_blank" rel="noopener noreferrer">Dr. Meng Zhao</a>'s group. I am conducting a study on groundwater and evapotranspiration modeling in a project with U.S. Geological Survey (USGS). This project aims to improve the plant-hydraulic modeling processes description on the influence of groundwater on evapotranspiration and ultimately in the water balance over the Contiguous United States (CONUS).</p>
+									<p>My research interests revolve around studying data-driven hydrological processes through remote-sensing, eddy-covariance flux data, and field work instrumentation.</p>
 
-						<!-- Two -->
-							<section id="two">
-								<div class="container">
-									<h3>Things I Can Do</h3>
-									<p>Integer eu ante ornare amet commetus vestibulum blandit integer in curae ac faucibus integer non. Adipiscing cubilia elementum integer lorem ipsum dolor sit amet.</p>
-									<ul class="feature-icons">
-										<li class="icon solid fa-code">Write all the code</li>
-										<li class="icon solid fa-cubes">Stack small boxes</li>
-										<li class="icon solid fa-book">Read books and stuff</li>
-										<li class="icon solid fa-coffee">Drink much coffee</li>
-										<li class="icon solid fa-bolt">Lightning bolt</li>
-										<li class="icon solid fa-users">Shadow clone technique</li>
-									</ul>
+									<hr style="width: 100%; margin: 20px auto; border: 1px solid;">
+									<p><b>Explore My Previous Research</b></p>
+									<p>I have worked on basin-scale water balance and energy balance closure methods, and developed a gap-filling technique for latent heat flux data. During my undergraduate and master's studies, I also contributed to modeling greenhouse gas emissions from reservoirs.</p>
+									<p><a href="#recent">See more details here.</a></p>
+									<p></p>
+
+									<hr style="width: 100%; margin: 20px auto; border: 1px solid;">
+									<p><b>Field Work Experience</b></p>
+									<p>Although my focus is on data analysis and numerical modeling, I’ve actively participated in several field campaigns — including expeditions to the Amazon Rainforest, Itaipu Reservoir, and Rio Verde Basin, among others.</p>
+									<a href="#galeria">Click here to view photos and learn more.</a>
+									<p></p>
+
+									<hr style="width: 100%; margin: 20px auto; border: 1px solid;">
+									<p><b>Science Communication & Passion for Nature</b></p>
+									<p>I'm passionate about making hydrological and environmental science accessible to everyone. I enjoy communicating scientific concepts and discussing topics such as the water cycle, weather, extreme events, and nature with diverse audiences. I strongly believe that, between the challenging and important task of writing scientific articles, we as scientists must take time to communicate to the public what we are doing. I'm open to participating in any project related to science communication.</p>
+																		
 								</div>
 							</section>
 
 						<!-- Three -->
-							<section id="three">
+							<section id="recent">
 								<div class="container">
-									<h3>A Few Accomplishments</h3>
-									<p>Integer eu ante ornare amet commetus vestibulum blandit integer in curae ac faucibus integer non. Adipiscing cubilia elementum integer. Integer eu ante ornare amet commetus.</p>
+									<h3>Recent Research</h3>
+									<p>Here are the main publications I developed under my PhD studies.</p>
 									<div class="features">
 										<article>
-											<a href="#" class="image"><img src="images/pic01.jpg" alt="" /></a>
+											<a href="https://doi.org/10.1016/j.agrformet.2023.109615" target="_blank" rel="noopener noreferrer" class="image"><img src="images/agrformet_final.png", alt="" /></a>
 											<div class="inner">
-												<h4>Possibly broke spacetime</h4>
-												<p>Integer eu ante ornare amet commetus vestibulum blandit integer in curae ac faucibus integer adipiscing ornare amet.</p>
+												<h4>Evaluation of the storage and evapotranspiration terms of the water budget for an agricultural watershed using local and remote-sensing measurements.</h4>
+												<p>(Hoeltgebaum, Dias, and Costa, 2021)</p>
+												<p>In this article, we evaluate the impact of energy balance closure on the water budget, as well as the influence of soil moisture spatial variability on basin-scale evapotranspiration estimates using the water-budget method. See full details in our publication in
+													<a href="https://doi.org/10.1016/j.agrformet.2023.109615" target="_blank" rel="noopener noreferrer">Agricultural and Forest
+														Meteorology</a>. </p>
 											</div>
 										</article>
 										<article>
-											<a href="#" class="image"><img src="images/pic02.jpg" alt="" /></a>
+											<a href="https://doi.org/10.1002/hyp.14105" target="_blank" rel="noopener noreferrer" class="image"><img src="images/hydproc_2021_2.png" alt="" /></a>
 											<div class="inner">
-												<h4>Terraformed a small moon</h4>
-												<p>Integer eu ante ornare amet commetus vestibulum blandit integer in curae ac faucibus integer adipiscing ornare amet.</p>
+												<h4>An analog period method for gap-filling of latent heat flux measurements.</h4>
+												<p>(Hoeltgebaum and Dias, 2023)</p>
+												<p>A new gap-filling method for latent heat flux, adapted from a wind-speed predictor approach.
+													The Analog Period Method (APM) is based on the idea that missing data can be filled by identifying and applying patterns from existing periods before and after the gap. It searches for similar periods within the dataset to reconstruct the missing values.
+													Take a look in our results at <a href="https://doi.org/10.1002/hyp.14105" target="_blank" rel="noopener noreferrer"> Hydrological Processes</a>.</p>
 											</div>
 										</article>
 										<article>
-											<a href="#" class="image"><img src="images/pic03.jpg" alt="" /></a>
+											<a href="https://doi.org/10.1029/2022WR033012" target="_blank" rel="noopener noreferrer" class="image"><img src="images/staeble-1.jpg" alt="" /></a>
 											<div class="inner">
-												<h4>Snapped dark matter in the wild</h4>
-												<p>Integer eu ante ornare amet commetus vestibulum blandit integer in curae ac faucibus integer adipiscing ornare amet.</p>
+												<h4>STAEBLE: A surface‐temperature‐and available‐energy‐based lake evaporation model.</h4>
+												<p>(Dias, Hoeltgebaum, and Santos, 2023)</p>
+												<p>A simple lake evaporation model calibrated using satellite and land-based data.
+													This mass transfer model uses MODIS water temperature and land-based meteorological data, calibrating the transfer coefficient through long-term energy budget closure. Tested at Lake Mead, it accounts for atmospheric stability and performs well without requiring local measurements.
+												    Check the paper <a href="https://doi.org/10.1029/2022WR033012" target="_blank" rel="noopener noreferrer">here</a>.
+												
+												</p>
 											</div>
 										</article>
 									</div>
@@ -104,28 +158,74 @@
 							</section>
 
 						<!-- Four -->
-							<section id="four">
+						<section id="previous">
+							<div class="container">
+								<h3>Previous Work</h3>
+								<p></p>
+								<div class="features">
+									<article>
+										<a class="image"><img src="images/verde.png" alt="" /></a>
+										<div class="inner">
+											<h4>Rio Verde Experimental Watershed</h4>
+											<p>I played an active role in continuing the work on this experimental watershed until its decommissioning. Together with my colleagues and professors at the <a href="https://www.prppg.ufpr.br/site/ppgea/pb/infraestrutura/lemma/" target="_blank" rel="noopener noreferrer">Lemma Laboratory (UFPR)</a>, we maintained measurements at three different sites along the basin and at the Rio Verde Reservoir for both educational and research purposes. Over ten years of meteorological, hydrological, and micrometeorological data and studies were developed at this location.</p>
+										</div>
+									</article>
+									<article>
+										<a class="image"><img src="images/amazon_2-3.png" alt="" /></a>
+										<div class="inner">
+											<h4>Amazon Rain Forest Work Field</h4>
+											<p>I had the pleasure of assisting researchers involved in the GoAmazon and ATTO Tower projects during field experiments in 2014 and 2015. It was also a great opportunity to experience and breathe in this incredible environmental sanctuary!</p>
+										</div>
+									</article>
+									<article>
+										<a class="image"><img src="images/teaching.png" alt="" /></a>
+										<div class="inner">
+											<h4>Teaching Experience</h4>
+											<p>For six years, I taught classes in Fluid Mechanics, Hydrology, Climatology, Calculus, Soil Mechanics, and other engineering subjects.</p>
+										</div>
+									</article>
+								</div>
+							</div>
+						</section>
+
+						<!-- Skills -->
+						<!-- <section id="skills">
+							<div class="container">
+								<h3>Skills</h3>
+								<ul class="feature-icons">
+									<li class="icon solid fa-code">Python and Fortran programming</li>
+									<li class="icon solid fa-cubes">Stack small boxes</li>
+									<li class="icon solid fa-book">Read books and stuff</li>
+									<li class="icon solid fa-coffee">Drink much coffee</li>
+									<li class="icon solid fa-bolt">Lightning bolt</li>
+									<li class="icon solid fa-users">Shadow clone technique</li>
+								</ul>
+							</div>
+						</section> -->
+
+
+					<section class="galeria" id="galeria">
+					<h3>Some Pictures</h3>
+					<p></p>
+					<a href="photos_1.jpg" data-lightbox="mural" data-title="Picture 1"><img src="images/photos_1.jpg" alt="Picture 1"></a>
+					<a href="photos_2.jpg" data-lightbox="mural" data-title="Picture 2"><img src="images/photos_2.jpg" alt="Picture 2"></a>
+					<a href="photos_3.jpg" data-lightbox="mural" data-title="Picture 3"><img src="images/photos_3.jpg" alt="Picture 3"></a>
+					<a href="photos_4.jpg" data-lightbox="mural" data-title="Picture 4"><img src="images/photos_4.jpg" alt="Picture 4"></a>
+					<a href="photos_5.jpg" data-lightbox="mural" data-title="Picture 5"><img src="images/photos_5.jpg" alt="Picture 5"></a>
+					<a href="photos_6.jpg" data-lightbox="mural" data-title="Picture 6"><img src="images/photos_6.jpg" alt="Picture 6"></a>
+					</section>
+
+
+						<!-- Five -->
+							<section id="contact">
 								<div class="container">
 									<h3>Contact Me</h3>
-									<p>Integer eu ante ornare amet commetus vestibulum blandit integer in curae ac faucibus integer non. Adipiscing cubilia elementum integer. Integer eu ante ornare amet commetus.</p>
-									<form method="post" action="#">
-										<div class="row gtr-uniform">
-											<div class="col-6 col-12-xsmall"><input type="text" name="name" id="name" placeholder="Name" /></div>
-											<div class="col-6 col-12-xsmall"><input type="email" name="email" id="email" placeholder="Email" /></div>
-											<div class="col-12"><input type="text" name="subject" id="subject" placeholder="Subject" /></div>
-											<div class="col-12"><textarea name="message" id="message" placeholder="Message" rows="6"></textarea></div>
-											<div class="col-12">
-												<ul class="actions">
-													<li><input type="submit" class="primary" value="Send Message" /></li>
-													<li><input type="reset" value="Reset Form" /></li>
-												</ul>
-											</div>
-										</div>
-									</form>
+									<p>If you want to discuss my research interests or take a look at my CV, please, send me an e-mail: lucas.emilioh[at]gmail.com</a>.</p>
+									<p></p>
 								</div>
 							</section>
 
-						<!-- Five -->
+						<!-- Five ----- examples -->
 						<!--
 							<section id="five">
 								<div class="container">
@@ -150,7 +250,6 @@
 										<hr />
 										<h2>Heading Level 2</h2>
 										<h3>Heading Level 3</h3>
-										<h4>Heading Level 4</h4>
 										<h5>Heading Level 5</h5>
 										<h6>Heading Level 6</h6>
 										<hr />
@@ -462,7 +561,7 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 					<section id="footer">
 						<div class="container">
 							<ul class="copyright">
-								<li>&copy; Untitled. All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+								<li>Design: <a href="http://html5up.net" target="_blank" rel="noopener noreferrer">HTML5 UP</a></li>
 							</ul>
 						</div>
 					</section>
@@ -477,6 +576,8 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
+
+			<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.4/js/lightbox.min.js"></script> -->
 
 	</body>
 </html>
